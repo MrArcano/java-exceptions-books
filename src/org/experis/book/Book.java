@@ -7,16 +7,16 @@ public class Book {
     private String editor;
 
     public Book(String title, int page, String author, String editor) {
-        if (title == null || title.isEmpty()) {
+        if (title == null || title.trim().isEmpty()) {
             throw new IllegalArgumentException("Title cannot be empty");
         }
         if (page <= 0) {
             throw new IllegalArgumentException("Page count must be greater than zero");
         }
-        if (author == null || author.isEmpty()) {
+        if (author == null || author.trim().isEmpty()) {
             throw new IllegalArgumentException("Author cannot be empty");
         }
-        if (editor == null || editor.isEmpty()) {
+        if (editor == null || editor.trim().isEmpty()) {
             throw new IllegalArgumentException("Editor cannot be empty");
         }
         this.title = title;
@@ -44,7 +44,7 @@ public class Book {
 
     // Setter methods
     public void setTitle(String title) {
-        if (title == null || title.isEmpty()) {
+        if (title == null || title.trim().isEmpty()) {
             throw new IllegalArgumentException("Title cannot be empty");
         }
         this.title = title;
@@ -58,14 +58,14 @@ public class Book {
     }
 
     public void setAuthor(String author) {
-        if (author == null || author.isEmpty()) {
+        if (author == null || author.trim().isEmpty()) {
             throw new IllegalArgumentException("Author cannot be empty");
         }
         this.author = author;
     }
 
     public void setEditor(String editor) {
-        if (editor == null || editor.isEmpty()) {
+        if (editor == null || editor.trim().isEmpty()) {
             throw new IllegalArgumentException("Editor cannot be empty");
         }
         this.editor = editor;
