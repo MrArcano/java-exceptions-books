@@ -38,7 +38,7 @@ public class Board {
         int coordY = Integer.parseInt(coords[1]) - 1;
 
         // Controllo delle coordinate
-        if (coordX < 0 || coordX >= board.length || coordY < 0 || coordY >= board[0].length) {
+        if (coordX < 0 || coordX >= 3 || coordY < 0 || coordY >= 3) {
             throw new IllegalArgumentException("Invalid coordinates");
         }
 
