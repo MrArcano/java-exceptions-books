@@ -1,5 +1,9 @@
 package org.experis.book;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.Scanner;
 
 public class Main {
@@ -17,7 +21,6 @@ public class Main {
                 System.out.println("-------------------------");
                 System.out.println("Error: " + e.getMessage());
                 System.out.println("-------------------------");
-
                 isNumber = false;
             }
         }while(!isNumber || size < 0);
@@ -27,7 +30,7 @@ public class Main {
         // Chiede i dati di un libro (titolo, numero pagine, autore, editore), istanzia un nuovo oggetto della classe Book e lo inserisce nell’array. Lo fa per il numero di elementi previsti.
         for (int i = 0; i < size;) {
             System.out.println("Book #" + (i+1));
-            System.out.print("Insert title: ");
+            System.out.print("Insert Title: ");
             String title = scan.nextLine();
 
             int page = 0;
@@ -45,9 +48,9 @@ public class Main {
                 }
             }while (!isNumber);
 
-            System.out.print("Insert author: ");
+            System.out.print("Insert Author: ");
             String author = scan.nextLine();
-            System.out.print("Insert publisher: ");
+            System.out.print("Insert Editor: ");
             String editor = scan.nextLine();
 
             // Gestire (o anticipare) eventuali errori in modo che il programma non vada in crash.
@@ -59,7 +62,6 @@ public class Main {
                 System.out.println("-------------------------");
                 System.out.println("Error: " + e.getMessage());
                 System.out.println("-------------------------");
-
             }
         }
 
@@ -71,6 +73,21 @@ public class Main {
 
         // Al termine dell’inserimento scrivere tutti i dati dei libri in un file e in seguito rileggerli dal file e mostrarli a video.
 
+        try(FileWriter fileWriter = new FileWriter(new File("./resources/data.txt"))){
+            for (int i = 0; i < size; i++) {
+                fileWriter.write(books[i].toString());
+            }
+        } catch (IOException e) {
+            System.out.println("Unable to open file");
+        }
+
+        try(Scanner fileReader = new Scanner(new File("./resources/data.txt"))){
+            while (fileReader.hasNextLine()) {
+                System.out.println(fileReader.nextLine());
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println("File not found");
+        }
 
 
     }
