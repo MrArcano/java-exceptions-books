@@ -1,0 +1,1 @@
+Book { title='asd', page=200, author='lol', editor='boh' }

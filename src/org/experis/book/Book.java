@@ -6,7 +6,7 @@ public class Book {
     private  String author;
     private String editor;
 
-    public Book(String title, int page, String author, String editor) {
+    public Book(String title, int page, String author, String editor) throws IllegalArgumentException{
         if (title == null || title.trim().isEmpty()) {
             throw new IllegalArgumentException("Title cannot be empty");
         }

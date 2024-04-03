@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7736d08a-476e-4ac3-8d62-a21abb73607d" name="Changes" comment="[edit]: main write/read file">
-      <change afterPath="$PROJECT_DIR$/src/org/experis/tris/Board.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/experis/tris/Main.java" afterDir="false" />
+    <list default="true" id="7736d08a-476e-4ac3-8d62-a21abb73607d" name="Changes" comment="[add]: drawingBoard">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/tris/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/tris/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/tris/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/tris/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1712152896431</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[add]: drawingBoard">
+      <option name="closed" value="true" />
+      <created>1712157301143</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712157301143</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -168,6 +177,19 @@
     <MESSAGE value="[edit]: exception message" />
     <MESSAGE value="[edit]: add trim controll" />
     <MESSAGE value="[edit]: main write/read file" />
-    <option name="LAST_COMMIT_MESSAGE" value="[edit]: main write/read file" />
+    <MESSAGE value="[add]: drawingBoard" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add]: drawingBoard" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/org/experis/tris/Board.java</url>
+          <line>4</line>
+          <properties field="currentPlayer" class="org.experis.tris.Board" />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
