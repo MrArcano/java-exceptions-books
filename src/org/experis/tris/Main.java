@@ -1,5 +1,7 @@
 package org.experis.tris;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
         // Vogliamo realizzare il gioco del tris.
@@ -28,8 +30,40 @@ public class Main {
 
         // Si continua così finchè tutte le caselle sono state occupate o finchè un giocatore ha vinto.
 
+        Scanner scan = new Scanner(System.in);
+
         Board board = new Board();
         board.drawingBoard();
+        boolean isValidMove;
+        for (int i = 0; i < 9;) {
+            do {
+                System.out.print("Player " + board.getCurrentPlayer() +", enter your move in the format 'row-column' (for example, '1-2'): ");
+                String move = scan.nextLine();
+                try {
+                    board.playerMove(move);
+                    isValidMove = true;
+                    i++;
+                } catch (IllegalArgumentException e) {
+                    System.out.println("-------------------------");
+                    System.out.println("Error: " + e.getMessage());
+                    System.out.println("-------------------------");
+                    isValidMove = false;
+                }
+                board.drawingBoard();
+            }while(!isValidMove);
 
+            // Check se qualcuno ha vinto
+            if (board.checkForWin()) {
+                break;
+            }
+        }
+
+        if (board.checkForWin()) {
+            System.out.println("Player " + board.getCurrentPlayer() + " wins!");
+        } else {
+            System.out.println("It's a draw!");
+        }
+
+        scan.close();
     }
 }
