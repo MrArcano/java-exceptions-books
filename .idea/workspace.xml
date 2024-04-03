@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7736d08a-476e-4ac3-8d62-a21abb73607d" name="Changes" comment="[add]: Main">
+    <list default="true" id="7736d08a-476e-4ac3-8d62-a21abb73607d" name="Changes" comment="[edit]: Main exception">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/experis/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/book/Book.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/experis/book/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/book/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -105,13 +104,22 @@
       <option name="project" value="LOCAL" />
       <updated>1712148173840</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="[edit]: Main exception">
+      <option name="closed" value="true" />
+      <created>1712150043671</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712150043671</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[init]" />
     <MESSAGE value="[add]: Book" />
     <MESSAGE value="[add]: Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add]: Main" />
+    <MESSAGE value="[edit]: Main exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="[edit]: Main exception" />
   </component>
 </project>
