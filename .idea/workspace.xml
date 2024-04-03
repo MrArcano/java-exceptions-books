@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7736d08a-476e-4ac3-8d62-a21abb73607d" name="Changes" comment="[add]: Book">
-      <change afterPath="$PROJECT_DIR$/src/org/experis/book/Main.java" afterDir="false" />
+    <list default="true" id="7736d08a-476e-4ac3-8d62-a21abb73607d" name="Changes" comment="[add]: Main">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/experis/book/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/book/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/experis/book/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/book/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,16 +35,16 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.experis.book.Main" />
@@ -97,12 +97,21 @@
       <option name="project" value="LOCAL" />
       <updated>1712146902898</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[add]: Main">
+      <option name="closed" value="true" />
+      <created>1712148173840</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712148173840</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="[init]" />
     <MESSAGE value="[add]: Book" />
-    <option name="LAST_COMMIT_MESSAGE" value="[add]: Book" />
+    <MESSAGE value="[add]: Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="[add]: Main" />
   </component>
 </project>
