@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7736d08a-476e-4ac3-8d62-a21abb73607d" name="Changes" comment="[edit]: Main exception">
+    <list default="true" id="7736d08a-476e-4ac3-8d62-a21abb73607d" name="Changes" comment="[edit]: main write/read file">
+      <change afterPath="$PROJECT_DIR$/src/org/experis/tris/Board.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/experis/tris/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/experis/book/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/experis/book/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +35,23 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.org.experis.tris.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Arcano\Desktop\Experis\java-exceptions-books\resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.org.experis.tris.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.experis.book.Main" />
       <module name="java-exceptions-books" />
@@ -58,8 +65,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="org.experis.tris.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.experis.tris.Main" />
+      <module name="java-exceptions-books" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.experis.tris.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.org.experis.tris.Main" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -112,7 +133,31 @@
       <option name="project" value="LOCAL" />
       <updated>1712150043671</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="[edit]: exception message">
+      <option name="closed" value="true" />
+      <created>1712151393542</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1712151393542</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[edit]: add trim controll">
+      <option name="closed" value="true" />
+      <created>1712152855220</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1712152855220</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[edit]: main write/read file">
+      <option name="closed" value="true" />
+      <created>1712152896431</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712152896431</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -120,6 +165,9 @@
     <MESSAGE value="[add]: Book" />
     <MESSAGE value="[add]: Main" />
     <MESSAGE value="[edit]: Main exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="[edit]: Main exception" />
+    <MESSAGE value="[edit]: exception message" />
+    <MESSAGE value="[edit]: add trim controll" />
+    <MESSAGE value="[edit]: main write/read file" />
+    <option name="LAST_COMMIT_MESSAGE" value="[edit]: main write/read file" />
   </component>
 </project>
